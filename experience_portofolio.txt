@@ -1,0 +1,71 @@
+stages
+
+insidix : 
+
+    presentation/mission realiser :
+
+        - Mise en Place de l’Authentification pour mkdocs
+
+        - Mise en Place d'un Serveur de Logs
+
+        - Installation des Services sur Ubuntu 24.04
+
+        - Installation de Nouveau Poste de Travail
+
+        - Documentation des divert project
+
+    condition de realisation:
+
+        Nombre de personnes sur le projet : 1
+        Durée : 11 semaine 
+        Langages abordés : HTML, CSS et JavaScript
+        Objectif : Créer un site de précommande fonctionnel
+
+
+STMicroelectronics :
+
+    presentation/realisation : 
+
+        création d'une base de donnée pour une equipe de r&d 
+        Lors de mon stage chez STMicroelectronics, j’ai approfondi mes compétences en SQL et en anglais
+        car j’ai travaillé avec une équipe basée en Italie.
+
+    condition de realisation:
+
+
+projects
+
+
+creéation d'une infrastructure réseau  : 
+
+    presentation :
+
+        Notre projet vise à concevoir et à mettre en place une infrastructure réseau sécurisée pour une organisation. 
+        L'objectif est de créer un système efficace pour les utilisateurs et les administrateurs, offrant divers services. 
+        En l'absence d'équipements physiques, nous avons utilisé des machines et des réseaux virtuels, 
+        ce qui nous a permis de concevoir une infrastructure réseau complexe avec une grande flexibilité et adaptabilité.
+
+
+
+création d’un réseau de téléphonie IP : 
+
+    presentation : 
+
+        J’ai participé à la création et à la configuration d'un réseau de téléphonie IP lors d’un projet en groupe d’un an. 
+
+
+
+développement d’un jeu ludo-éducatif :
+
+    presentation : 
+
+        J'ai participé au développement d'un jeu ludo-éducatif en JavaScript etWhat If? est un jeu éducatif conçu pour les élèves de 3ème, 
+        visant à rendre l'apprentissage de l'histoire plus interactif et captivant. 
+        En utilisant des scénarios basés sur les thèmes du programme scolaire, le jeu permet aux élèves de plonger dans des événements historiques,
+        de prendre des décisions cruciales, et d'apprendre de manière ludique.
+
+
+
+
+
+

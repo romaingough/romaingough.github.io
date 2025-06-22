@@ -1,10 +1,60 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Romain gough Portfolio</title>
+    <title>Contact – Romain Gough</title>
     <link rel="stylesheet" href="acceil.css">
+    <style>
+        .contact-container {
+            max-width: 900px;
+            margin: 40px auto;
+            padding: 20px;
+            background-color: #fff;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+            border-radius: 12px;
+        }
+
+        .contact-info, .contact-form {
+            margin-bottom: 30px;
+        }
+
+        .contact-info p {
+            margin: 10px 0;
+        }
+
+        .contact-info a {
+            color: #007BFF;
+            text-decoration: none;
+        }
+
+        form label {
+            display: block;
+            margin-bottom: 5px;
+            font-weight: bold;
+        }
+
+        form input, form textarea {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 15px;
+            border: 1px solid #ccc;
+            border-radius: 6px;
+        }
+
+        form button {
+            background-color: #007BFF;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 6px;
+            cursor: pointer;
+        }
+
+        form button:hover {
+            background-color: #0056b3;
+        }
+    </style>
 </head>
 <body>
     <header>
@@ -14,23 +64,34 @@
                 <li><a href="index.html">Accueil</a></li>
                 <li><a href="formation.html">Formation</a></li>
                 <li><a href="projets.html">Projets</a></li>
-                <li><a href="contact.html">Contact</a></li>
+                <li><a href="contact.html" class="active">Contact</a></li>
             </ul>
         </nav>
     </header>
-    <main>
-        <section>
-            <div class="outer-container">
-                <div class="container">
-                    <div class="left-side">
-            <h2>Contact</h2>
-            <p>Vous pouvez me contacter au numéro de téléphone suivant ou à l'adresse email suivante :</p>
-            <p><strong>Numéro de téléphone :</strong> 06 52 88 20 78</p>
-            <p><strong>Email :</strong> <a href="mailto:romain.gough@etu.univ-grenoble-alpes.fr">romain.gough@etu.univ-grenoble-alpes.fr</a></p>
-        </div>
 
-    </div>
-</div>
+    <main>
+        <section class="contact-container">
+            <div class="contact-info">
+                <h2>Contact</h2>
+                <p><strong>Téléphone :</strong> 06 52 88 20 78</p>
+                <p><strong>Email :</strong> <a href="mailto:romain.gough@gmail.com">romain.gough@gmail.com</a></p>
+                <p><strong>LinkedIn :</strong> <a href="https://www.linkedin.com/in/romain-gough-3036ab201" target="_blank">romain-gough</a></p>
+            </div>
+
+                <form action="mailto:romain.gough@gmail.com" method="post" enctype="text/plain">
+                    <label for="name">Nom :</label>
+                    <input type="text" id="name" name="nom" required placeholder="Votre nom">
+
+                    <label for="email">Email :</label>
+                    <input type="email" id="email" name="email" required placeholder="Votre email">
+
+                    <label for="message">Message :</label>
+                    <textarea id="message" name="message" rows="5" required placeholder="Votre message"></textarea>
+
+                    <button type="submit">Envoyer</button>
+                </form>
+
+            </div>
         </section>
     </main>
 </body>
